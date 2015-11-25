@@ -6,8 +6,8 @@ files:
 permissions:
    - object: /var/www/html/demoApp
      pattern: "**"
-     owner: apache
-     group: apache
+     owner: www-data
+     group: www-data
      mode: 777
      type:
        - file
