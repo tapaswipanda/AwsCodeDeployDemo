@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /var/www/html/demoApp
+     destination: /var/www/html/demoAppAS
 permissions:
-   - object: /var/www/html/demoApp
+   - object: /var/www/html/demoAppAS
      pattern: "**"
      owner: www-data
      group: www-data
