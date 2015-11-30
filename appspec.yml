@@ -11,4 +11,8 @@ permissions:
      mode: 777
      type:
        - file
-
+hooks:
+  ApplicationStop:
+    - location: scripts/deregister_from_elb.sh
+  ApplicationStart:
+    - location: scripts/register_with_elb.sh
