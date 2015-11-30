@@ -3,7 +3,7 @@ Code deployment for application running behind an AWS Elastic load balancer in a
 
 I am assuming you have an existing application running having AWS ELB and auto-scaling set up.
 
-# Steps for Code Deploy Set up with Github.
+### Steps for Code Deploy Set up with Github.
 
 1. Install AWS CLI  - on any existing instance
 2. Install Code Deploy agent  - on the same instance as step #1
