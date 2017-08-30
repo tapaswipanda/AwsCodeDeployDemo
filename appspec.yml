@@ -8,7 +8,7 @@ permissions:
      pattern: "**"
      owner: www-data
      group: www-data
-     mode: 777
+     mode: 755
      type:
        - file
 hooks:
